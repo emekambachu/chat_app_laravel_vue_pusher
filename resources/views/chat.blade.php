@@ -8,7 +8,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Chats</div>
 
-                    <div class="panel-body">
+                    <div class="panel-body" v-chat-scroll>
                         <chat-messages-component :messages="messages"></chat-messages-component>
                     </div>
                     <div class="panel-footer">
